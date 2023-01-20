@@ -1,0 +1,39 @@
+.card {
+  border: 1rpx solid black;
+  border-radius: 1rem;
+  width: fit-content;
+  font-weight: 600;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(29, 28, 28);
+  box-shadow: 5px 5px 5px #d81159;
+}
+
+.card:hover {
+  filter: saturate(180%);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: rgb(49, 48, 48);
+}
+
+.bt {
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: #ffafcc;
+  box-sizing: border-box;
+  color: black;
+  width: 40px;
+  height: 27px;
+  font-family: "Times New Roman", Times, serif;
+}
+.bt:hover {
+  cursor: pointer;
+  background-color: #ff006e;
+
+  font-weight: bold;
+}

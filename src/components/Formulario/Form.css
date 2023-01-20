@@ -1,0 +1,78 @@
+.formu{
+    background-image: url("../../styles/img/usuarioycontraseña.gif");
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+   
+
+}
+@media screen and (max-width: 300px) and (min-width: 950px) {
+    .formu {
+      flex-direction: column-reverse;
+      width: 95%;
+      height: 80%;
+      margin: 1%;
+      padding: 0px;
+      align-content: center;
+      background-size: cover;
+    }
+  }
+
+.lblForm{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  margin-top: 20px; -webkit-text-stroke: 0.9px rgb(240, 14, 228);
+  font-size: 3rem;
+  color:black ;
+    
+
+}
+.inputForm{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  margin-top: 20px;
+
+}
+.btnForm{
+
+    
+    border-radius: 0.5rem;
+    font-weight:bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: #ffafcc;
+    box-sizing: border-box;
+    color: black;
+    width:80px;
+    height: 27px;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+
+.btnForm:hover{
+    background-color: #ff006e;
+    border-radius: 1rem ;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+
+}
+
+.errors{
+  color: red;
+  font-weight:bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  -webkit-text-stroke: 0.9px black;
+
+}

@@ -1,0 +1,24 @@
+.btn{
+    border-radius: 0.5rem;
+    font-weight:bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: #ffafcc;
+    box-sizing: border-box;
+    color: black;
+    width:80px;
+    height: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+
+}
+.btn:hover{
+    background-color: #ff006e;
+    border-radius: 1rem ;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+
+}
